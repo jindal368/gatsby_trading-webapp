@@ -9,11 +9,20 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "./bootstrap.min.css";
-import {FaCartPlus} from "react-icons/fa";
+import Navbar from './Globals/navbar';
+import Background from './Globals/Backgroundimage'
 
 import "./layout.css"
 
-const Layout = ({ children }) => <>{children}</>;
+const Layout = ({ children }) => <>
+<Navbar/>
+<hr></hr>
+<Background/>
+
+
+</>;
+
+
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
