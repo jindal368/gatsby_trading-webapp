@@ -50,7 +50,7 @@ export default class navbar extends Component{
 
             }
         <li className="nav-item ml-lg-5 ">
-          <FaCartPlus className="cart"/>
+          <FaCartPlus className="cart snipcart-checkout"/>
         </li>
            </ul>
           </div>

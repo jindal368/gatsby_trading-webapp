@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Info from '../components/home/info'
 import Menu from '../components/home/menu'
+import Products from '../components/home/products'
+import Contact from '../components/home/contact'
 import Footer from '../components/Globals/footer'
 
 const IndexPage = ({data}) => (
@@ -11,6 +13,8 @@ const IndexPage = ({data}) => (
     </Layout>
      <Info/>
      <Menu items={data.menu}/>
+     <Products/>
+     <Contact/>
      <Footer/>
      </div>
 );

@@ -49,7 +49,7 @@
     .footer {
         background-color: black;
     }
-    .menu {
+    .menu,.contact {
         background: var(--mainGrey);
     }
  
