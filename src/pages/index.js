@@ -6,7 +6,7 @@ import Menu from '../components/home/menu'
 import Products from '../components/home/products'
 import Contact from '../components/home/contact'
 import Footer from '../components/Globals/footer'
-
+import { graphql } from 'gatsby'
 const IndexPage = ({data}) => (
   <div>
    <Layout>
