@@ -1,6 +1,5 @@
 import React from 'react'
 import Title from '../Globals/Title';
-import { FaLandmark } from 'react-icons/fa';
 
 export default function contact() {
     return (

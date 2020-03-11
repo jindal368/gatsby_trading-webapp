@@ -28,7 +28,7 @@ export default class navbar extends Component{
        return(
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
           <Link to="/" className="navbar-brand">
-              <img src={logo}/>
+              <img src={logo} alt="Tradeweb"/>
           
           </Link>
           <button className="navbar-toggler" type="button"onClick={this.navbarHandler}>

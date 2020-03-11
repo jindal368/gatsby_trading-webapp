@@ -30,7 +30,7 @@ if(category==="all"){
     })
 }
 else{
-    let items = tempItems.filter(({node})=>node.category ==category);
+    let items = tempItems.filter(({node})=>node.category ===category);
     this.setState(()=>{
         return {coffeeItems:items}
     })
