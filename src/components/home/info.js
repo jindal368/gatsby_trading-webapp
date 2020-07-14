@@ -10,7 +10,6 @@ export default function info() {
         <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-muted mb-5">
             Today’s Artificial Intelligence (AI) has far surpassed the hype of blockchain and quantum computing. The developers now take advantage of this in creating new Machine Learning models and to re-train the existing models for better performance and results.
-This tutorial will give an introduction to machine learning and its implementation in Artificial Intelligence.
             </p>
             <Link to="/about">
            <button className="btn text-uppercase btn-yellow">about page</button>

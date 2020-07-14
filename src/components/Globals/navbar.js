@@ -18,6 +18,21 @@ export default class navbar extends Component{
                 path:'/about',
                 text:'about'
             },
+            {
+                id:3,
+                path:'/add',
+                text:'Sell'
+            },
+            {
+                id:4,
+                path:'/Login',
+                text:'Login'
+            },
+            {
+                id:5,
+                path:'/Signup',
+                text:'Signup'
+            },
         ]
         };
         navbarHandler = () =>{

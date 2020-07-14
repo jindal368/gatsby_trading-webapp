@@ -20,7 +20,6 @@ const IndexPage = ({data}) => (
 
 export const query = graphql`
 {
-
   menu:allContentfulCoffeeitem{
     edges{
      node{
